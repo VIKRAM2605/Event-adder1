@@ -10,9 +10,9 @@ function Applayout() {
     <div className='flex flex-col gap-5'>
         <Navbar/>
         <Routes>
-            <Route path="/"  element={<Home/>} />
-            <Route path="/add-event" element={<Addevent/>}/>
-            <Route path='/add-participant' element={<Adduser/>}/>
+            <Route path="/Event-adder1/"  element={<Home/>} />
+            <Route path="/Event-adder1/add-event" element={<Addevent/>}/>
+            <Route path='/Event-adder1/add-participant' element={<Adduser/>}/>
         </Routes>
     </div>
   )

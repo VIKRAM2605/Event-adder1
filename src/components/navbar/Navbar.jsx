@@ -9,13 +9,13 @@ function Navbar() {
     <div>
         <nav className="bg-blue-500 h-13 w-full p-4 ">
             <ol className='flex justify-center text-white text-[18px] gap-40 items-center h-full'>
-                <Link to='/'>
+                <Link to='/Event-adder1/'>
                 <li className='flex gap-x-1'><HomeIcon/> Dashboard</li>
                 </Link>
-                <Link to='/add-event'>
+                <Link to='/Event-adder1/add-event'>
                 <li className='gap-x-1 flex'><EventIcon className='relative top-0.5'/>Add-Event</li>
                 </Link>
-                <Link to='/add-participant'>
+                <Link to='/Event-adder1/add-participant'>
                 <li className=''><BoyIcon fontSize='large'/><span className='relative top-1'>Add-Participant</span></li>
                 </Link>
             </ol>
